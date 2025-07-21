@@ -32,7 +32,7 @@ function M.setup()
         ["@number"] = { fg = colors.light_green },
         ["@boolean"] = { fg = colors.soft_red },
         ["@function"] = { fg = colors.strong_yellow },
-        ["@type"] = { fg = colors.gold, italic = true },
+        ["@type"] = { fg = colors.gold, italic = true, bold = true },
         ["@attribute"] = { fg = colors.light_brown },
         ["@constructor"] = { fg = colors.light_brown},
         ["@property"] = { fg = colors.solid_yellow, italic = true },
