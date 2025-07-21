@@ -1,0 +1,1 @@
+require("rio").setup()
