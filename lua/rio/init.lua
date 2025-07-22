@@ -78,9 +78,9 @@ function M.setup()
         makeTarget = { fg = colors.light_orange },
 
         -- Non Tree sitter
-        qfFileName = { fg = colors.light_orange },
-        QuickFixLine = { fg = colors.red_pink, bold = true},
-        qfLineNr = { fg = colors.light_orange },
+        qfFileName = { fg = colors.gold },
+        QuickFixLine = { fg = colors.gold, bold = true, italic = true },
+        qfLineNr = { fg = colors.gold, bold = true },
 
         -- Telescope
         TelescopeMatching = { fg = colors.orange2, bold = true},
