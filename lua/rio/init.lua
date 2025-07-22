@@ -15,7 +15,7 @@ function M.setup()
         gold = "#D9D196",
         strong_yellow = "#CABF6D",
         solid_yellow = "#E3B505",
-        white = "#EBEBEB",
+        white = "#CCCCCC",
         dark_blue = "#3B5B91",
     }
 
