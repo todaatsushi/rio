@@ -44,7 +44,7 @@ function M.setup()
         ["@function.method.call"] = { fg = colors.gold, italic = true },
         ["@function.builtin"] = { fg = colors.soft_red },
 
-        ["@type"] = { fg = colors.gold, italic = true, bold = true },
+        ["@type"] = { fg = colors.soft_pink, bold = true },
         ["@type.builtin"] = { fg = colors.soft_pink },
 
         ["@attribute"] = { fg = colors.light_brown },
