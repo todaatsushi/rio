@@ -36,6 +36,8 @@ function M.setup()
 
         ["@character.special"] = { fg = colors.dark_blue, italic = true },
 
+        ["@module"] = { fg = colors.white },
+
         ["@number"] = { fg = colors.light_green },
 
         ["@boolean"] = { fg = colors.soft_red },
@@ -44,7 +46,7 @@ function M.setup()
         ["@function.method.call"] = { fg = colors.gold, italic = true },
         ["@function.builtin"] = { fg = colors.soft_red },
 
-        ["@type"] = { fg = colors.soft_pink, bold = true },
+        ["@type"] = { fg = colors.strong_yellow, bold = true },
         ["@type.builtin"] = { fg = colors.soft_pink },
 
         ["@attribute"] = { fg = colors.light_brown },
