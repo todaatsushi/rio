@@ -16,7 +16,7 @@ function M.setup()
         strong_yellow = "#CABF6D",
         solid_yellow = "#E3B505",
         white = "#CCCCCC",
-        dark_blue = "#3B5B91",
+        light_blue = "#4A321C",
     }
 
     local highlights = {
@@ -27,12 +27,12 @@ function M.setup()
 
         -- Cursor
         Cursor = { fg = colors.background, bg = colors.light_orange },
-        CursorLine = { bg = colors.dark_blue },
-        CursorColumn = { bg = colors.dark_blue },
+        CursorLine = { bg = colors.light_blue },
+        CursorColumn = { bg = colors.light_blue },
 
         -- Selection
-        Visual = { bg = colors.dark_blue, fg = colors.light_orange },
-        VisualNOS = { bg = colors.dark_blue, fg = colors.light_orange },
+        Visual = { bg = colors.light_blue, fg = colors.light_orange },
+        VisualNOS = { bg = colors.light_blue, fg = colors.light_orange },
 
         -- Search
         Search = { fg = colors.background, bg = colors.light_green },
@@ -47,15 +47,15 @@ function M.setup()
         -- Signs
         SignColumn = { fg = colors.tan, bg = colors.background },
         FoldColumn = { fg = colors.tan, bg = colors.background },
-        Folded = { fg = colors.tan, bg = colors.dark_blue },
+        Folded = { fg = colors.tan, bg = colors.light_blue },
 
         -- Statusline
-        StatusLine = { fg = colors.white, bg = colors.dark_blue },
-        StatusLineNC = { fg = colors.tan, bg = colors.dark_blue },
+        StatusLine = { fg = colors.white, bg = colors.light_blue },
+        StatusLineNC = { fg = colors.tan, bg = colors.light_blue },
 
         -- Tabline
-        TabLine = { fg = colors.tan, bg = colors.dark_blue },
-        TabLineFill = { bg = colors.dark_blue },
+        TabLine = { fg = colors.tan, bg = colors.light_blue },
+        TabLineFill = { bg = colors.light_blue },
         TabLineSel = { fg = colors.light_orange, bg = colors.background },
 
         -- Messages
@@ -65,16 +65,16 @@ function M.setup()
         ErrorMsg = { fg = colors.soft_red },
 
         -- Completion
-        Pmenu = { fg = colors.white, bg = colors.dark_blue },
+        Pmenu = { fg = colors.white, bg = colors.light_blue },
         PmenuSel = { fg = colors.background, bg = colors.light_orange },
-        PmenuSbar = { bg = colors.dark_blue },
+        PmenuSbar = { bg = colors.light_blue },
         PmenuThumb = { bg = colors.tan },
 
         -- Diffs
         DiffAdd = { fg = colors.light_green, bg = colors.background },
         DiffDelete = { fg = colors.soft_red, bg = colors.background },
         DiffChange = { fg = colors.gold, bg = colors.background },
-        DiffText = { fg = colors.light_orange, bg = colors.dark_blue },
+        DiffText = { fg = colors.light_orange, bg = colors.light_blue },
 
         -- Spelling
         SpellBad = { fg = colors.soft_red, undercurl = true },
@@ -116,7 +116,7 @@ function M.setup()
         ["@attribute.builtin"] = { fg = colors.light_brown },
         ["@boolean"] = { fg = colors.soft_red },
         ["@character"] = { fg = colors.orange2 },
-        ["@character.special"] = { fg = colors.dark_blue, italic = true },
+        ["@character.special"] = { fg = colors.light_blue, italic = true },
         ["@comment"] = { fg = colors.tan },
         ["@comment.documentation"] = { fg = colors.tan },
         ["@comment.error"] = { fg = colors.red_pink },
@@ -183,7 +183,7 @@ function M.setup()
         ["@string.documentation"] = { fg = colors.tan },
         ["@string.escape"] = { fg = colors.light_green },
         ["@string.regex"] = { fg = colors.orange2 },
-        ["@string.special"] = { fg = colors.dark_blue, italic = true },
+        ["@string.special"] = { fg = colors.light_blue, italic = true },
         ["@symbol"] = { fg = colors.soft_pink },
         ["@tag"] = { fg = colors.light_orange },
         ["@tag.attribute"] = { fg = colors.orange },
@@ -256,7 +256,7 @@ function M.setup()
 
         -- Lazy
         LazyH1 = { fg = colors.light_orange, bold = true },
-        LazyButton = { fg = colors.white, bg = colors.dark_blue },
+        LazyButton = { fg = colors.white, bg = colors.light_blue },
         LazyButtonActive = { fg = colors.background, bg = colors.light_orange },
 
         -- Telescope
@@ -299,15 +299,15 @@ function M.setup()
 
         -- LSP hover and floating windows
         LspInfoBorder = { fg = colors.tan, bg = colors.background },
-        LspSignatureActiveParameter = { bg = colors.dark_blue, bold = true },
+        LspSignatureActiveParameter = { bg = colors.light_blue, bold = true },
         LspCodeLens = { fg = colors.tan },
         LspCodeLensSign = { fg = colors.tan },
         LspCodeLensSeparator = { fg = colors.tan },
 
         -- LSP references
-        LspReferenceText = { bg = colors.dark_blue },
-        LspReferenceRead = { bg = colors.dark_blue },
-        LspReferenceWrite = { bg = colors.dark_blue },
+        LspReferenceText = { bg = colors.light_blue },
+        LspReferenceRead = { bg = colors.light_blue },
+        LspReferenceWrite = { bg = colors.light_blue },
 
         -- LSP inlay hints
         LspInlayHint = { fg = colors.tan, italic = true },
@@ -438,7 +438,7 @@ function M.setup()
 
         -- Lazy
         LazyH1 = { fg = colors.light_orange, bold = true },
-        LazyButton = { fg = colors.white, bg = colors.dark_blue },
+        LazyButton = { fg = colors.white, bg = colors.light_blue },
         LazyButtonActive = { fg = colors.background, bg = colors.light_orange },
 
         -- Telescope (add missing)
@@ -474,15 +474,15 @@ function M.setup()
 
         -- LSP hover and floating windows
         LspInfoBorder = { fg = colors.tan, bg = colors.background },
-        LspSignatureActiveParameter = { bg = colors.dark_blue, bold = true },
+        LspSignatureActiveParameter = { bg = colors.light_blue, bold = true },
         LspCodeLens = { fg = colors.tan },
         LspCodeLensSign = { fg = colors.tan },
         LspCodeLensSeparator = { fg = colors.tan },
 
         -- LSP references
-        LspReferenceText = { bg = colors.dark_blue },
-        LspReferenceRead = { bg = colors.dark_blue },
-        LspReferenceWrite = { bg = colors.dark_blue },
+        LspReferenceText = { bg = colors.light_blue },
+        LspReferenceRead = { bg = colors.light_blue },
+        LspReferenceWrite = { bg = colors.light_blue },
 
         -- LSP inlay hints
         LspInlayHint = { fg = colors.tan, italic = true },
